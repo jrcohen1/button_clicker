@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topBar{
+    height: 15px;
+    width: 700px;
+    background-color: silver;
+    position: relative;
+    left: 50px;
+    padding: 30px;
+    font-size: smaller;
+}
+
+.logInButton{
+    height: 25px;
+    width: 60px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    left: 630px;
+    bottom: 50px;
+    box-shadow: 2px 2px;
+}
+
+#button{
+    height: 25px;
+    width: 60px;
+    background-color: aqua;
+    color: white;
+}
+
+
+.searchBar{
+    position: relative;
+    left: 200px;
+    bottom: 25px;
+}
+
+#searchBar{
+    width: 200px;
+}
+
+.ninjaDefBox1{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    border-style: solid;
+}
+
+.ninja{
+    font-size: 40px;
+    position: relative;
+    left: 20px;
+}
+
+.noun{
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+
+.plural{
+    position: relative;
+    top: 40px;
+    right: 80px;
+}
+
+.italicsNinja{
+    font-style: oblique;
+}
+
+.likebutton1{
+    width: 90px;
+    position: relative;
+    left: 35px;
+    top: 60px;
+    box-shadow: 2px 2px;
+}
+
+.ninjaDef1{
+    width: 200px;
+    position: relative;
+    bottom: 30px;
+    left: 190px;
+}
+
+.ninjaDefBox2{
+    width: 400px;
+    height: 170px;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    border-style: solid;
+}
+
+.ninjaDef2{
+    width: 200px;
+    position: relative;
+    left: 190px;
+    bottom: 20px;
+}
+
+.likebutton2{
+    width: 90px;
+    position: relative;
+    left: 35px;
+    top: 80px;
+    box-shadow: 2px 2px;
+}
+.codeninja{
+    font-size: 40px;
+    position: relative;
+    left: 20px;
+}
+
+.noun2{
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+
+.plural2{
+    position: relative;
+    top: 40px;
+    right: 80px;
+}
+
+.italicsNinja2{
+    font-style: oblique;
+}
+
+#button2{
+    background-color: gold;
+    width: 90px;
+}
+
+.dojonaryBox{
+    height: 120px;
+    width: 200px;
+    position: relative;
+    left: 585px;
+    bottom: 280px;
+    font-size: 26px;
+    border-style: solid;
+    padding: 10px;
+}
+
+#addDefButton{
+    width: 150px;
+    background-color: greenyellow;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 3px 3px;
+}

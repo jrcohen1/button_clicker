@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="button_clicker.css">
+</head>
+<body>
+
+    <div class="topBar"> 
+
+        <h1>Dojonary</h1>
+        <div class="searchBar"> <input type="text" name="search" id="searchBar">
+        </div>
+        <div class="logInButton"> 
+            <button onclick="change(this)" id="button">Login</button>
+        </div>
+    </div>
+
+    <div class="ninjaDefBox1"> 
+        <div class="ninja1">
+            <span class="ninja">ninja</span>
+            <span class="noun">noun</span>
+            <span class="plural"> Plural: 
+                <span class="italicsNinja">ninjas</span>
+            </span>
+        </div>
+        <div class="likebutton1">
+            <button type="button" id="button2">13 likes</button>
+        </div>
+        <div class="ninjaDef1">A practitioner skilled in the Japanese art of ninjutsu</div>
+    </div>
+
+    <div class="ninjaDefBox2"> 
+        <div class="ninja2">
+            <span class="codeninja">ninja</span>
+            <span class="noun2">noun</span>
+            <span class="plural2"> Plural: 
+                <span class="italicsNinja2">ninjas</span>
+            </span>
+        </div>
+            <div class="likebutton2">
+            <button type="button" id="button2" onclick="alert('Ninja was liked')">37 likes</button>
+            </div>
+        <div class="ninjaDef2">A programmer who breaks down problems with zen-like focus</div>
+    </div>
+
+    <div class="dojonaryBox">
+        Dojonary is defined by YOU
+        <div class="addDef"> 
+            <button onclick="hide(this)" type="button" id="addDefButton">Add Definition</button>
+    </div>
+
+    <script src="button_clicker.js"></script>
+</body>
+</html>
